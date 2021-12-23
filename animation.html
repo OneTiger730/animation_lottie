@@ -9,21 +9,18 @@
       align-items: center;
       height: 100vh;
     }
-
     .bodymovinanim {
       width: 90%;
       max-width: 400px;
       margin-bottom: 30px;
       cursor: pointer;
     }
-
     p {
       font-size: 12px;
       text-transform: uppercase;
       opacity: 0.6;
       letter-spacing: 2px;
     }
-
     .showmore {
       position: fixed;
       top: 10px;
@@ -48,7 +45,6 @@
     let iconSkipForward = document.querySelector('.bodymovinanim');
     const startPoint = 120;
     let totalFrames = 0;
-
     let animationSkipForward = bodymovin.loadAnimation({
         container: iconSkipForward,
         renderer: 'svg',
